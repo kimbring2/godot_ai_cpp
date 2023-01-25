@@ -370,19 +370,15 @@ coord = tf.train.Coordinator(clean_stop_exception_types=None)
 thread_data_list = []
 for i in range(arguments.env_num):
     thread_data = threading.Thread(target=Data_Thread, args=(coord,i))
-    thread_data.start()
-    #coord.join(thread_data)
     thread_data_list.append(thread_data)
 
 thread_train = threading.Thread(target=Train_Thread, args=(coord,))
 thread_train.start()
 
-#for thread_data in thread_data_list:
-#    print("thread_data: ", thread_data)
-#    thread_data.start()
+for thread_data in thread_data_list:
+    thread_data.start()
 
-#for thread_data in thread_data_list:
-#    print("thread_data: ", thread_data)
-#    coord.join(thread_data)
+for thread_data in thread_data_list:
+    coord.join(thread_data)
 
-#coord.join(thread_train)
+coord.join(thread_train)
