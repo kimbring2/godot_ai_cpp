@@ -39,7 +39,14 @@ $ python actor.py --env_id your_env_id --learner_ip your_learner_ip
 $ python3.7 actor.py --env_id 0 --learner_ip 192.168.1.3
 ```
 
-5. Evaluate the trained model.
+5. You can see the training progress by using Tensorboard.
+```
+$  tensorboard --logdir=./tensorboard
+```
+
+<img src="images/average_reward_dodge_cpp.png " width="500">
+
+6. Evaluate the trained model.
 ```
 $ python run_evaluation.py --workspace_path /your/path --model_name reinforcement_model_xxxxx
 $ python3.7 run_evaluation.py --workspace_path /home/kimbring2/dodge_the_creeps/project/ --model_name reinforcement_model_13000
