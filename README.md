@@ -3,12 +3,14 @@ Training Godot game agent using the Deep Learning at the C++. It provides more s
 
 # Game Description
 The agent can obtain the score by collecting the coin during 20 second. The Action is consist of the left, right, up, and down.
+
 <img src="images/godot_cpp_example.gif " width="250">
 
 # Requirements
-1. The C++ code of this repository is based on [official tutorial of Godot](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html).
-2. This project uses the [GodotAIGym](https://github.com/lupoglaz/GodotAIGym) to connect the Godot with Python.
-3. The GDScript version code is available in [DogdeCreepTut](https://github.com/kimbring2/GodotAIGym/tree/uint_type_update/Tutorials/DogdeCreepTut).
+1. Godot 3 version.
+2. The C++ code of this repository is based on [official tutorial of Godot](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html).
+3. This project uses the [GodotAIGym](https://github.com/lupoglaz/GodotAIGym) to connect the Godot with Python.
+4. The GDScript version code is available in [DogdeCreepTut](https://github.com/kimbring2/GodotAIGym/tree/uint_type_update/Tutorials/DogdeCreepTut).
 
 # How To Run
 1. Build the project.
