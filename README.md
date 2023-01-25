@@ -1,5 +1,5 @@
 # Introduction
-Training Godot game agent using the Deep Learning at the C++. It provides more speed training than the GDScript.
+Training Godot game agent using the Deep Learning at the C++. It provides faster training speed than the GDScript.
 
 # Game Description
 The agent can obtain the score by collecting the coin during 20 second. The Action is consist of the left, right, up, and down.
