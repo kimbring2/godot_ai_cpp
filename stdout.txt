@@ -1,0 +1,10 @@
+Godot Engine v3.2.stable.custom_build - https://godotengine.org
+OpenGL ES 3.0 Renderer: NVIDIA GeForce RTX 3080/PCIe/SSE2
+ 
+_ready()
+Dynamic exception type: boost::interprocess::interprocess_exception
+std::exception::what: File exists
+
+Dynamic exception type: boost::interprocess::interprocess_exception
+std::exception::what: File exists
+

@@ -1,0 +1,30 @@
+Godot Engine v3.2.stable.custom_build - https://godotengine.org
+OpenGL ES 3.0 Renderer: NVIDIA GeForce RTX 3080/PCIe/SSE2
+ 
+cSharedMemory::cSharedMemory()
+cSharedMemory Memory segment found
+turbo mode
+cSharedMemorySemaphore::cSharedMemorySemaphore()
+cSharedMemorySemaphore::cSharedMemorySemaphore()
+findFloatTensor
+s_name: agent_action
+findFloatTensor Found:
+cPersistentFloatTensor::cPersistentFloatTensor()
+findIntTensor
+s_name: env_action
+findIntTensor Found:
+cPersistentIntTensor::cPersistentIntTensor()
+findUintTensor
+s_name: observation
+findUintTensor Found:
+cPersistentUintTensor::cPersistentUintTensor()
+findFloatTensor
+s_name: reward
+findFloatTensor Found:
+cPersistentFloatTensor::cPersistentFloatTensor()
+findIntTensor
+s_name: done
+findIntTensor Found:
+cPersistentIntTensor::cPersistentIntTensor()
+Constructed semaphore sem_action
+Constructed semaphore sem_observation
