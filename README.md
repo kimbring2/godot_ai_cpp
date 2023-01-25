@@ -44,3 +44,10 @@ $ python3.7 actor.py --env_id 0 --learner_ip 192.168.1.3
 $ python run_evaluation.py --workspace_path /your/path --model_name reinforcement_model_xxxxx
 $ python3.7 run_evaluation.py --workspace_path /home/kimbring2/dodge_the_creeps/project/ --model_name reinforcement_model_13000
 ```
+
+# Speed Up The Game Speed
+You can change the game speed by setting the turbo_mode flag of the dodgeCreepEnv. The game speed will be doubled if turbo_mode is True.
+
+```
+env = dodgeCreepEnv(exec_path=GODOT_BIN_PATH, env_path=env_abs_path, turbo_mode=False)
+```
