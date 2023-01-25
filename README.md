@@ -14,7 +14,7 @@ The agent can obtain the score by collecting the coin during 20 second. The Acti
 
 **NOTE:**
 - You need copy the [GodotModule](https://github.com/lupoglaz/GodotAIGym/tree/master/GodotModule) first before building this project.
-- The libtorch is excluded from this repositoy because of uploading size limitation.
+- The libtorch, godot-cpp, and game exe file are excluded from this repositoy because of uploading size limitation.
 
 # How To Run
 1. Build the project.
