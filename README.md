@@ -12,6 +12,10 @@ The agent can obtain the score by collecting the coin during 20 second. The Acti
 3. This project uses the [GodotAIGym](https://github.com/lupoglaz/GodotAIGym) to connect the Godot with Python.
 4. The GDScript version code is available in [DogdeCreepTut](https://github.com/kimbring2/GodotAIGym/tree/uint_type_update/Tutorials/DogdeCreepTut).
 
+**NOTE:**
+- You need copy the [GodotModule](https://github.com/lupoglaz/GodotAIGym/tree/master/GodotModule) first before building this project.
+- The libtorch is excluded from this repositoy because of uploading size limitation.
+
 # How To Run
 1. Build the project.
 ```
