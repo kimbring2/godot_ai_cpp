@@ -45,6 +45,9 @@ $ python run_evaluation.py --workspace_path /your/path --model_name reinforcemen
 $ python3.7 run_evaluation.py --workspace_path /home/kimbring2/dodge_the_creeps/project/ --model_name reinforcement_model_13000
 ```
 
+**NOTE:**
+- [Pretrained model](https://drive.google.com/drive/folders/1m2-JgGyMyhaTNKg3zcR0SGqQuKsvVf0w?usp=sharing) is avialable from my Google Drive.
+
 # Speed Up The Game Speed
 You can change the game speed by setting the turbo_mode flag of the dodgeCreepEnv. The game speed will be doubled if turbo_mode is True.
 
