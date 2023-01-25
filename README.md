@@ -44,9 +44,9 @@ $ python3.7 actor.py --env_id 0 --learner_ip 192.168.1.3
 $  tensorboard --logdir=./tensorboard
 ```
 
-<img src="images/average_reward_dodge_cpp.png " width="500">
+<img src="images/average_reward_dodge_cpp.png " width="250">
 
-6. Evaluate the trained model.
+6. Evaluate the trained model. Try to pick the best trained model by using Tensorboard chart!
 ```
 $ python run_evaluation.py --workspace_path /your/path --model_name reinforcement_model_xxxxx
 $ python3.7 run_evaluation.py --workspace_path /home/kimbring2/dodge_the_creeps/project/ --model_name reinforcement_model_13000
