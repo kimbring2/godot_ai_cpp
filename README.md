@@ -61,3 +61,5 @@ You can change the game speed by setting the turbo_mode flag of the dodgeCreepEn
 ```
 env = dodgeCreepEnv(exec_path=GODOT_BIN_PATH, env_path=env_abs_path, turbo_mode=False)
 ```
+
+The total frame rate per one episode is same even if the game speed is increased. That means the trained model from torbe_mode can be used in normal mode.
